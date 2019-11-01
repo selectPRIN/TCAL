@@ -1,3 +1,13 @@
+#
+#
+#   This program includes the codes for distributing the causes of death aggregated in  
+#   age-groups into single ages.             
+#   
+#   This is an adapted program from the original methodology for disagreagting data
+#   by Silvia Rizzi. Adaptation by Stefano Mazzuco and Vladimir Canudas-Romo 
+#
+#
+
 #Causes reported by WHO are the following
 
 

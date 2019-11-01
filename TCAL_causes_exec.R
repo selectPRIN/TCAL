@@ -1,3 +1,11 @@
+#
+#
+#   This program includes the codes for producing confidence intervals 
+#   of the cause-of-death contribution to the difference beteen TCALs
+#   from two countries.
+#   created by Stefano Mazzuco 
+#
+#
 rm(list=ls())
 library(parallel)
 library(foreach)

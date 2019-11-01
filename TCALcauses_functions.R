@@ -1,3 +1,11 @@
+#
+#
+#   This program includes the codes for producing TCAL for a couple of countries
+#   as well as the age- cohort- and cause-of-death contribution to the difference             
+#   beteen TCALs.
+#   created by Vladimir Canudas-Romo 
+#
+#
 library(reshape)
 library(RColorBrewer)
 #### here put the folder where you have your HMD data
@@ -27,7 +35,7 @@ Causes<-c("Infectious and parasitic diseases","Neoplasms","Diseases of the circu
 
 
 ################
-## This function is needed to read Cause-specific n. deaths of the two countrys (cty1, cty2) you want to compare. The output is a dataset with Year, Age, n. deaths, Cause, Country
+## This function is needed to read Cause-specific n. deaths of the two countries (cty1, cty2) you want to compare. The output is a dataset with Year, Age, n. deaths, Cause, Country
 ################
 
 read.ICD <- function(cty1,cty2,sex="m"){
